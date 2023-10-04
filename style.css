@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#chatbox {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#message {
+    width: 300px;
+    min-height: 100px;
+    resize: none;
+}
+#chatbox {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.uzenet {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,102,131,1) 100%);
+    padding: 10px;
+}
